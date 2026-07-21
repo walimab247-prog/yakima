@@ -1,0 +1,10 @@
+@font-face { font-family: "wsocial"; src: url("") format("embedded-opentype"), url("") format("woff"), url("") format("truetype"), url("") format("svg"); font-style: normal; font-weight: normal; }
+.wsite-social-mail::before { content: ""; }
+.wsite-social-facebook::before { content: ""; }
+.wsite-social-instagram::before { content: ""; }
+.wsite-social-linkedin::before { content: ""; }
+.wsite-social-twitter::before { content: ""; }
+.wsite-social-youtube::before { content: ""; }
+.wsite-social-item, .wsite-editor .wsite-social-item, #wsite-com-product-social-sharing .wsite-com-product-social-facebook, #wsite-com-product-social-sharing .wsite-com-product-social-twitter, #wsite-com-product-social-sharing .wsite-com-product-social-pinterest { display: inline; vertical-align: middle; width: auto; height: auto; background-image: none; background-repeat: no-repeat; text-transform: none; text-decoration: none; }
+.wsite-social-item:hover, .wsite-editor .wsite-social-item:hover, #wsite-com-product-social-sharing .wsite-com-product-social-facebook:hover, #wsite-com-product-social-sharing .wsite-com-product-social-twitter:hover, #wsite-com-product-social-sharing .wsite-com-product-social-pinterest:hover { text-decoration: none; }
+.wsite-social-item::before, .wsite-social-item::after, .wsite-editor .wsite-social-item::before, .wsite-editor .wsite-social-item::after, #wsite-com-product-social-sharing .wsite-com-product-social-facebook::before, #wsite-com-product-social-sharing .wsite-com-product-social-facebook::after, #wsite-com-product-social-sharing .wsite-com-product-social-twitter::before, #wsite-com-product-social-sharing .wsite-com-product-social-twitter::after, #wsite-com-product-social-sharing .wsite-com-product-social-pinterest::before, #wsite-com-product-social-sharing .wsite-com-product-social-pinterest::after { font-family: "wsocial"; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; }
